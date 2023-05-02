@@ -1,0 +1,85 @@
+*,
+*:after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.4;
+}
+
+main {
+  background: url(../images/peter-olexa-mxIGWk111u0-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.love {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.love__img-box {
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block-end: 2rem;
+}
+
+.love__content-box {
+  text-align: center;
+
+  background: #fff;
+  border-radius: 5px;
+  min-width: 30rem;
+  max-width: 50rem;
+}
+
+.love__content-subheading {
+  border-block-end: 2px solid #dedede;
+  font-weight: 600;
+  padding-block: 0.61rem;
+  padding-inline: 0.5rem;
+}
+
+.love__content-description {
+  padding-inline: 2rem;
+  font-size: 1.5rem;
+  padding-block: 1rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border-radius: 9px;
+  width: 50%;
+  text-align: center;
+}
+
+.btn--submit:link {
+  background: rgb(37, 98, 37);
+}
+
+.btn--find-out:link {
+  background: rgb(102, 102, 30);
+}
+
+.btn--reset:link {
+  background: red;
+}
